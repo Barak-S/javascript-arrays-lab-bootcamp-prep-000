@@ -17,8 +17,8 @@ function destructivelyRemoveFirstKitten() {
   return kittens
 }
 function appendKitten(name) {
-  
-  return kittens
+  var newKittens = kittens.pop()
+  return newKittens
 }
 function prependKitten(name) {
   
